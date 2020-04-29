@@ -1,8 +1,8 @@
 module.exports = {
-    title: 'CSS Tricks',
+    title: 'JS Tricks',
     description: 'Just playing around',
     dest: './dist',
-    base: '/css-tricks/',
+    base: '/js-tricks/',
     markdown: {
         lineNumbers: true
     },
@@ -30,7 +30,7 @@ module.exports = {
         sidebar: [
             {
                 title: "技巧",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/triangle/", "三角形边框"],
                     ["/ellipsis/", "文字超出显示省略号"],
@@ -40,7 +40,7 @@ module.exports = {
             },
             {
                 title: "属性",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/filter/", "滤镜 filter"],
                     ["/backdrop-filter/", "backdrop-filter 与毛玻璃效果"],
@@ -49,21 +49,21 @@ module.exports = {
             },
             {
                 title: "渐变 Gradient",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/conic-gradient/", "角向渐变，可以实现饼图"],
                 ]
             },
             {
                 title: "浏览器",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/safari-input-autofill/", "如何隐藏 Safari 中 input 标签的密码自动填充图标"],
                 ]
             },
             {
                 title: "动画",
-                collapsable: false,
+                collapsable: true,
                 children: [
                     ["/loading/", "加载动画"],
                 ]
@@ -72,7 +72,7 @@ module.exports = {
         sidebarDepth: 1,
         lastUpdated: "最后更新时间",
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        repo: 'shizhonghai/css-tricks',
+        repo: 'shizhonghai/js-tricks',
         repoLabel: '查看源码',
         // 假如文档不是放在仓库的根目录下：
         docsDir: 'docs',
